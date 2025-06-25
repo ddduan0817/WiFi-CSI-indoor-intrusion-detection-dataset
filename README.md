@@ -8,15 +8,15 @@
 We conducted a comprehensive evaluation of our proposed intrusion detection framework in a 3m × 2m indoor area. To ensure accuracy and repeatability, no irrelevant personnel were present during the data collection process.
 
 The dataset consists of three major categories of data:
-1.Static data: Captured when no person is present in the monitored area.
-2.Movement data: Collected while a subject performs various activities inside the target area, including standing still, walking, and running.
-3.Boundary data: Recorded when a subject approaches the monitored area but does not enter it.
+1. Static data: Captured when no person is present in the monitored area;
+2. Movement data: Collected while a subject performs various activities inside the target area, including standing still, walking, and running;
+3. Boundary data: Recorded when a subject approaches the monitored area but does not enter it.
 
 In total, the dataset includes five types of human activities:
-A. envonly: No person present in the environment.
-B. approach: A person approaches the area boundary but does not enter.
-C. stand: A person remains stationary inside the monitored area.
-D. walk: A person walks slowly within the area.
+A. envonly: No person present in the environment;
+B. approach: A person approaches the area boundary but does not enter;
+C. stand: A person remains stationary inside the monitored area;
+D. walk: A person walks slowly within the area;
 E. run: A person moves quickly (runs) inside the area.
 
 To simulate a realistic low-SNR indoor environment, the testing area contains objects such as elevators, televisions, and furniture. The experiments were conducted using commodity WiFi devices. Channel State Information (CSI) was collected using the Intel 5300 wireless NIC and the Linux 802.11n CSI Tool.
